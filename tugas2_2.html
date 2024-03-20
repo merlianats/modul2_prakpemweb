@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2.2</title>
+</head>
+<body>
+    <form>
+        <table border="ridge">
+            <tr>
+                <th width="50%" bgcolor="#fcbf49">Name</th>
+                <th bgcolor="#fcbf49">Value</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sex">Sex</label>
+                </td>
+                <td>
+                    <input type="radio" name="male">Male
+                    <br>
+                    <input type="radio" name="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="eye_color">Eye color</label>
+                </td>
+                <td>
+                    <select name="dropdown">
+                        <option value="green" selected>Green</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="check">Check all that apply</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="feet_tall"> Over 6 feet tall
+                    <br>
+                    <input type="checkbox" name="feet_tall"> Over 200 pounds
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Describe your athletic ability: <br>
+                    <textarea name="description" cols="46" rows="6"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <input type="submit" name="submit" value="Enter my information">
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
